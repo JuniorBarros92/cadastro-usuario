@@ -9,6 +9,12 @@ export default function Projects() {
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div className="project-card" key={index}>
+              {project.image && (
+                <div className="project-image">
+                  <img src={project.image} alt={project.title} />
+                </div>
+              )}
+
               <div className="project-info">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>

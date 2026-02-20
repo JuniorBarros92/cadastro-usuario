@@ -1,0 +1,9 @@
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: var(--text-soft);
+  max-width: 600px;
+}
