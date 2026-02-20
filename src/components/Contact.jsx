@@ -1,8 +1,11 @@
 import { useState } from "react"
 
+
+
 export default function Contact() {
   const [nome, setNome] = useState("")
   const [mensagem, setMensagem] = useState("")
+  
 
   const enviarWhats = (e) => {
     e.preventDefault()
