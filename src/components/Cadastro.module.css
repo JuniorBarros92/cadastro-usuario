@@ -1,0 +1,47 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+form  {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  gap: 0.75rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+form input,
+form button {
+  padding: 0.8rem;
+  border: 1px solid #eee;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+}
+
+form button {
+  background: linear-gradient(135deg, #2002a3 0%, #8371e0 100%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+form button:hover {
+  opacity: 0.8;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
