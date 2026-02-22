@@ -8,9 +8,9 @@ function UserCard({ user }) {
         src={`https://robohash.org/${user.id}`}
       />
       <div className="user-card-info">
-      <p>{user.name}</p>
-      <p>{user.email}</p>
-      <p>{user.age}</p>
+      <p>Nome:{user.name}</p>
+      <p>Email:{user.email}</p>
+      <p>Idade:{user.age}</p>
       </div>
     </div>
   );

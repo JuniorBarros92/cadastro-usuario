@@ -1,0 +1,25 @@
+.user-card {
+  background-color: #fff;
+  padding: 1rem 1.25rem;
+  border-radius: 1rem;
+  gap: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.user-card p {
+  margin: 0.5rem 0; }
+
+  .user-card-avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    align-self: center; }
+
+    .user-card-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem; }
