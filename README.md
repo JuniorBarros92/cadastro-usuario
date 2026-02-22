@@ -1,16 +1,46 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cadastro de Usuários — Portfolio React
 
-Currently, two official plugins are available:
+Pequeno projeto em React + Vite que implementa um formulário de cadastro de usuários (nome, e-mail e idade) e exibe a lista de usuários criada em memória. Ideal para estudos e demonstração de componentes React simples.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## React Compiler
+- Formulário para cadastrar usuários (nome, e-mail, idade)
+- Lista de usuários exibida em cards responsivos (`UserCard`)
+- Estilização com CSS simples (arquivos em `src/`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Requisitos
 
-## Expanding the ESLint configuration
+- Node.js 16+ recomendado
+- npm ou yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Scripts úteis
+
+- `npm run dev` — inicia o servidor de desenvolvimento (Vite)
+- `npm run build` — gera a build de produção
+- `npm run preview` — pré-visualiza a build gerada
+
+## Como rodar localmente
+
+1. Instale dependências:
+
+```bash
+npm install
+```
+
+2. Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Abra o endereço mostrado no terminal (normalmente http://localhost:5173).
+
+## Estrutura principal do projeto
+
+- `src/App.jsx` — componente principal com o formulário de cadastro
+- `src/components/UserCard.jsx` — componente de apresentação do usuário
+- `src/App.css`, `src/components/UserCard.css`, `src/styles/global.css` — estilos
+- `src/main.jsx` — ponto de entrada React
+
